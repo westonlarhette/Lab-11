@@ -68,77 +68,77 @@ plt.tight_layout()
 #
 
 # =============================================================================
-# trial1 = rng.random(100) < 0.08
-# indices1 = np.nonzero(trial1)
-# wait_times1 = np.diff(indices1)
-# wait_times1 = wait_times1.flatten()
-# 
-# trial2 = rng.random(100) < 0.08
-# indices2 = np.nonzero(trial2)
-# wait_times2 = np.diff(indices2)
-# wait_times2 = wait_times2.flatten()
-# 
-# trial3 = rng.random(100) < 0.08
-# indices3 = np.nonzero(trial3)
-# wait_times3 = np.diff(indices3)
-# wait_times3 = wait_times3.flatten()
-# 
-# trial4 = rng.random(100) < 0.08
-# indices4 = np.nonzero(trial4)
-# wait_times4 = np.diff(indices4)
-# wait_times4 = wait_times4.flatten()
-# 
-# trial5 = rng.random(100) < 0.08
-# indices5 = np.nonzero(trial5)
-# wait_times5 = np.diff(indices5)
-# wait_times5 = wait_times5.flatten()
-# 
-# trial6 = rng.random(100) < 0.08
-# indices6 = np.nonzero(trial6)
-# wait_times6 = np.diff(indices6)
-# wait_times6 = wait_times6.flatten()
-# 
-# trial7 = rng.random(100) < 0.08
-# indices7 = np.nonzero(trial7)
-# wait_times7 = np.diff(indices7)
-# wait_times7 = wait_times7.flatten()
-# 
-# trial8 = rng.random(100) < 0.08
-# indices8 = np.nonzero(trial8)
-# wait_times8 = np.diff(indices8)
-# wait_times8 = wait_times8.flatten()
-# 
-# trial9 = rng.random(100) < 0.08
-# indices9 = np.nonzero(trial9)
-# wait_times9 = np.diff(indices9)
-# wait_times9 = wait_times9.flatten()
-# 
-# trial10 = rng.random(100) < 0.08
-# indices10 = np.nonzero(trial10)
-# wait_times10 = np.diff(indices10)
-# wait_times10 = wait_times10.flatten()
-# 
-# trial11 = rng.random(100) < 0.08
-# indices11 = np.nonzero(trial11)
-# wait_times11 = np.diff(indices11)
-# wait_times11 = wait_times11.flatten()
-# 
-# trial12 = rng.random(100) < 0.08
-# indices12 = np.nonzero(trial12)
-# wait_times12 = np.diff(indices12)
-# wait_times12 = wait_times12.flatten()
-# 
-# 
-# wait_times_total = np.concatenate((wait_times1,wait_times2,wait_times3,wait_times4,wait_times5,wait_times6,wait_times7,wait_times8,wait_times9,wait_times10,wait_times11,wait_times12))
-# 
-# plt.figure()
-# plt.hist(wait_times_total, color='blue', bins=12)
-# plt.xlabel('Value of time interval between flips that result in heads')
-# plt.ylabel('Frequency of intervals')
-# plt.title('Histogram of Unfair Coinflip & Time Intervals between flips giving heads')
-# 
-# plt.tight_layout()
-# plt.show()
+trial1 = rng.random(100) < 0.08
+indices1 = np.nonzero(trial1)
+wait_times1 = np.diff(indices1)
+wait_times1 = wait_times1.flatten()
+
+trial2 = rng.random(100) < 0.08
+indices2 = np.nonzero(trial2)
+wait_times2 = np.diff(indices2)
+wait_times2 = wait_times2.flatten()
+
+trial3 = rng.random(100) < 0.08
+indices3 = np.nonzero(trial3)
+wait_times3 = np.diff(indices3)
+wait_times3 = wait_times3.flatten()
+
+trial4 = rng.random(100) < 0.08
+indices4 = np.nonzero(trial4)
+wait_times4 = np.diff(indices4)
+wait_times4 = wait_times4.flatten()
+
+trial5 = rng.random(100) < 0.08
+indices5 = np.nonzero(trial5)
+wait_times5 = np.diff(indices5)
+wait_times5 = wait_times5.flatten()
+
+trial6 = rng.random(100) < 0.08
+indices6 = np.nonzero(trial6)
+wait_times6 = np.diff(indices6)
+wait_times6 = wait_times6.flatten()
+
+trial7 = rng.random(100) < 0.08
+indices7 = np.nonzero(trial7)
+wait_times7 = np.diff(indices7)
+wait_times7 = wait_times7.flatten()
+
+trial8 = rng.random(100) < 0.08
+indices8 = np.nonzero(trial8)
+wait_times8 = np.diff(indices8)
+wait_times8 = wait_times8.flatten()
+
+trial9 = rng.random(100) < 0.08
+indices9 = np.nonzero(trial9)
+wait_times9 = np.diff(indices9)
+wait_times9 = wait_times9.flatten()
+
+trial10 = rng.random(100) < 0.08
+indices10 = np.nonzero(trial10)
+wait_times10 = np.diff(indices10)
+wait_times10 = wait_times10.flatten()
+
+trial11 = rng.random(100) < 0.08
+indices11 = np.nonzero(trial11)
+wait_times11 = np.diff(indices11)
+wait_times11 = wait_times11.flatten()
+
+trial12 = rng.random(100) < 0.08
+indices12 = np.nonzero(trial12)
+wait_times12 = np.diff(indices12)
+wait_times12 = wait_times12.flatten()
+
+
+wait_times_total = np.concatenate((wait_times1,wait_times2,wait_times3,wait_times4,wait_times5,wait_times6,wait_times7,wait_times8,wait_times9,wait_times10,wait_times11,wait_times12))
+
+plt.figure()
+plt.hist(wait_times_total, color='blue', bins=12)
+plt.xlabel('Value of time interval between flips that result in heads')
+plt.ylabel('Frequency of intervals')
+plt.title('Histogram of Unfair Coinflip & Time Intervals between flips giving heads')
+
+plt.tight_layout()
+plt.show()
 # =============================================================================
     
 
