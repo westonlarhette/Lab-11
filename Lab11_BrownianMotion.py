@@ -19,79 +19,79 @@ import matplotlib.pyplot as plt
 rng = np.random.default_rng()
 
 # =============================================================================
-# x_step1 = rng.random(num_steps) > 0.5
-# y_step1 = rng.random(num_steps) > 0.5
-# x_step1 = 2*x_step1 - 1
-# y_step1 = 2*y_step1 - 1
-# x_position1 = np.cumsum(x_step1)
-# y_position1 = np.cumsum(y_step1)
-# 
-# 
-# x_step2 = rng.random(num_steps) > 0.5
-# y_step2 = rng.random(num_steps) > 0.5
-# x_step2 = 2*x_step2 - 1
-# y_step2 = 2*y_step2 - 1
-# x_position2 = np.cumsum(x_step2)
-# y_position2 = np.cumsum(y_step2)
-# 
-# 
-# x_step3 = rng.random(num_steps) > 0.5
-# y_step3 = rng.random(num_steps) > 0.5
-# x_step3 = 2*x_step3 - 1
-# y_step3 = 2*y_step3 - 1
-# x_position3 = np.cumsum(x_step3)
-# y_position3 = np.cumsum(y_step3)
-# 
-# 
-# x_step4 = rng.random(num_steps) > 0.5
-# y_step4 = rng.random(num_steps) > 0.5
-# x_step4 = 2*x_step4 - 1
-# y_step4 = 2*y_step4 - 1
-# x_position4 = np.cumsum(x_step4)
-# y_position4 = np.cumsum(y_step4)
-# 
-# 
-# plt.figure()
-# 
-# plt.subplot(2,2,1)
-# plt.plot(x_position1,y_position1)
-# plt.xlim([-20,20])
-# plt.ylim([-20,20])
-# # Labeling plots
-# plt.xlabel('X position') 
-# plt.ylabel('Y position')
-# plt.title('2D Random Walk #1')
-# 
-# plt.subplot(2,2,2)
-# plt.plot(x_position2,y_position2)
-# plt.xlim([-20,20])
-# plt.ylim([-20,20])
-# # Labeling plots
-# plt.xlabel('X position') 
-# plt.ylabel('Y position')
-# plt.title('2D Random Walk #2')
-# 
-# plt.subplot(2,2,3)
-# plt.plot(x_position3,y_position3)
-# plt.xlim([-20,20])
-# plt.ylim([-20,20])
-# # Labeling plots
-# plt.xlabel('X position') 
-# plt.ylabel('Y position')
-# plt.title('2D Random Walk #3')
-# 
-# plt.subplot(2,2,4)
-# plt.plot(x_position4,y_position4)
-# plt.xlim([-20,20])
-# plt.ylim([-20,20])
-# # Labeling plots
-# plt.xlabel('X position') 
-# plt.ylabel('Y position')
-# plt.title('2D Random Walk #4')
-# 
-# plt.tight_layout()
-# plt.show()
-# 
+x_step1 = rng.random(num_steps) > 0.5
+y_step1 = rng.random(num_steps) > 0.5
+x_step1 = 2*x_step1 - 1
+y_step1 = 2*y_step1 - 1
+x_position1 = np.cumsum(x_step1)
+y_position1 = np.cumsum(y_step1)
+
+
+x_step2 = rng.random(num_steps) > 0.5
+y_step2 = rng.random(num_steps) > 0.5
+x_step2 = 2*x_step2 - 1
+y_step2 = 2*y_step2 - 1
+x_position2 = np.cumsum(x_step2)
+y_position2 = np.cumsum(y_step2)
+
+
+x_step3 = rng.random(num_steps) > 0.5
+y_step3 = rng.random(num_steps) > 0.5
+x_step3 = 2*x_step3 - 1
+y_step3 = 2*y_step3 - 1
+x_position3 = np.cumsum(x_step3)
+y_position3 = np.cumsum(y_step3)
+
+
+x_step4 = rng.random(num_steps) > 0.5
+y_step4 = rng.random(num_steps) > 0.5
+x_step4 = 2*x_step4 - 1
+y_step4 = 2*y_step4 - 1
+x_position4 = np.cumsum(x_step4)
+y_position4 = np.cumsum(y_step4)
+
+
+plt.figure()
+
+plt.subplot(2,2,1)
+plt.plot(x_position1,y_position1)
+plt.xlim([-20,20])
+plt.ylim([-20,20])
+# Labeling plots
+plt.xlabel('X position') 
+plt.ylabel('Y position')
+plt.title('2D Random Walk #1')
+
+plt.subplot(2,2,2)
+plt.plot(x_position2,y_position2)
+plt.xlim([-20,20])
+plt.ylim([-20,20])
+# Labeling plots
+plt.xlabel('X position') 
+plt.ylabel('Y position')
+plt.title('2D Random Walk #2')
+
+plt.subplot(2,2,3)
+plt.plot(x_position3,y_position3)
+plt.xlim([-20,20])
+plt.ylim([-20,20])
+# Labeling plots
+plt.xlabel('X position') 
+plt.ylabel('Y position')
+plt.title('2D Random Walk #3')
+
+plt.subplot(2,2,4)
+plt.plot(x_position4,y_position4)
+plt.xlim([-20,20])
+plt.ylim([-20,20])
+# Labeling plots
+plt.xlabel('X position') 
+plt.ylabel('Y position')
+plt.title('2D Random Walk #4')
+
+plt.tight_layout()
+plt.show()
+
 # =============================================================================
 
 #1.2 Plotting the displacement distribution
