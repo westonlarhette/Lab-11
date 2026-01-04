@@ -1,4 +1,6 @@
 # Lab-11
+Loyola Marymount University: PHYS1200
+
 1 BROWNIAN MOTION: 
 
 In the Brownian Motion portion of the lab, we focused on modeling the Brownian motion and diffusion of liquid or gas molecules with a computational 2-dimensional random walk process.
